@@ -14,6 +14,11 @@
 		A03479D02B75817700CB0B62 /* Fitness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A03479CE2B75817700CB0B62 /* Fitness.xcdatamodeld */; };
 		A03479D22B75817800CB0B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03479D12B75817800CB0B62 /* Assets.xcassets */; };
 		A03479D52B75817800CB0B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03479D32B75817800CB0B62 /* LaunchScreen.storyboard */; };
+		A03479DD2B7619CC00CB0B62 /* DatabaseManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03479DC2B7619CC00CB0B62 /* DatabaseManger.swift */; };
+		A03479DF2B7769D000CB0B62 /* ProgramManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03479DE2B7769D000CB0B62 /* ProgramManager.swift */; };
+		A03479E32B7784F300CB0B62 /* ProgramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03479E22B7784F300CB0B62 /* ProgramViewController.swift */; };
+		A03479E52B7865C700CB0B62 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03479E42B7865C700CB0B62 /* RecordViewController.swift */; };
+		A03479E72B78C3EA00CB0B62 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03479E62B78C3EA00CB0B62 /* DisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		A03479D12B75817800CB0B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03479D42B75817800CB0B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A03479D62B75817800CB0B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03479DC2B7619CC00CB0B62 /* DatabaseManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManger.swift; sourceTree = "<group>"; };
+		A03479DE2B7769D000CB0B62 /* ProgramManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramManager.swift; sourceTree = "<group>"; };
+		A03479E22B7784F300CB0B62 /* ProgramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramViewController.swift; sourceTree = "<group>"; };
+		A03479E42B7865C700CB0B62 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		A03479E62B78C3EA00CB0B62 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				A03479D32B75817800CB0B62 /* LaunchScreen.storyboard */,
 				A03479D62B75817800CB0B62 /* Info.plist */,
 				A03479CE2B75817700CB0B62 /* Fitness.xcdatamodeld */,
+				A03479DC2B7619CC00CB0B62 /* DatabaseManger.swift */,
+				A03479DE2B7769D000CB0B62 /* ProgramManager.swift */,
+				A03479E22B7784F300CB0B62 /* ProgramViewController.swift */,
+				A03479E42B7865C700CB0B62 /* RecordViewController.swift */,
+				A03479E62B78C3EA00CB0B62 /* DisplayViewController.swift */,
 			);
 			path = Fitness;
 			sourceTree = "<group>";
@@ -142,8 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03479D02B75817700CB0B62 /* Fitness.xcdatamodeld in Sources */,
+				A03479E32B7784F300CB0B62 /* ProgramViewController.swift in Sources */,
+				A03479DD2B7619CC00CB0B62 /* DatabaseManger.swift in Sources */,
+				A03479E52B7865C700CB0B62 /* RecordViewController.swift in Sources */,
 				A03479CA2B75817700CB0B62 /* ViewController.swift in Sources */,
 				A03479C62B75817600CB0B62 /* AppDelegate.swift in Sources */,
+				A03479DF2B7769D000CB0B62 /* ProgramManager.swift in Sources */,
+				A03479E72B78C3EA00CB0B62 /* DisplayViewController.swift in Sources */,
 				A03479C82B75817700CB0B62 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
